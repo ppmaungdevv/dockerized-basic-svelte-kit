@@ -1,38 +1,15 @@
-# create-svelte
+# Dockerized skeleton SvelteKit project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### Just a `basic SvelteKit` project with `Docker`.
 
-## Creating a project
+I was trying learn about `SvelteKit` and needed some upgrade & update for `node` and `npm` in my PC. I also started learing about `Docker` at that time as I wanted to try something new for my development setup, with one command line to start, and I tried on this projects. I know there's not much twist or tweak but if you want to start your `SvelteKit` learning quick, clone the repo and have fun.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Starting the project
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+run the following command
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+docker compose up -d
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Go to: `http://localhost:5173/`
